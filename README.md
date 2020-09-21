@@ -58,94 +58,102 @@ https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d6f6b408-a40b-48
 
 ## Features
 
-In this section, I will go over the different parts of your project, and describe each in a sentence or so.
+In this section, I will go over the different feature of the project, 
+•	Home page
+The homepage consist of  
+o	Greatness.jpg 
+o	Welcome.jpg
+o	Link Menu for AboutMe, GalleryWall, 
+https://8000-d9919ff5-1f2e-4541-9bf2-34e5a6bf0343.ws-eu01.gitpod.io/
+•	AboutMe
 
-## Home Page 
-. Allows users to  click on the menu to navigate to pages of choice.
+Consist of user story of the owner. In order to go to the next page click next button
+https://8000-d9919ff5-1f2e-4541-9bf2-34e5a6bf0343.ws-eu01.gitpod.io/AboutMe.html
 
-## AboutMe
-. This is a brief background of the owner. On the page the “NEXT” navigation allows user to view the preceeding page thus creat a flow.
+•	GalleryWall
+This consist of owner artwork display on the gallery Wall
+https://8000-d9919ff5-1f2e-4541-9bf2-34e5a6bf0343.ws-eu01.gitpod.io/GalleryWall.html
 
-## GalleryWall
-This page displays the owner's artwork in the GalleryWall
+•	LiveWell
+LiveWell page consist of JuicePlus+ image. When user click on the image or the JuicePlus+ link it will be linked with an external website of the owner’s health product. Clicking on the Next button will take the user to the “ContactMe” page however if the user want more information on the prior page “AboutMe” page the ‘Previous’ button will take the user back.
 
-## LiveWell
-This page promotes healthy supplement as the owner is encouraging her ser to stay healthy. User will clikc on the image or tect
+https://8000-d9919ff5-1f2e-4541-9bf2-34e5a6bf0343.ws-eu01.gitpod.io/LiveWell.html
 
-## ContactMe
+•	ContactMe 
+Consist of feedback form with user input of Full name, email and mobile contact can be found.  When user date input had being completed the submit button will be clicked to submit the for the proceed back yo the home page.
 
-## Next
-
-## previous
-
-## submit
-
-## Just Juice
-
-## JuicePlus+ image
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- https://8000-d9919ff5-1f2e-4541-9bf2-34e5a6bf0343.ws-eu01.gitpod.io/Contact.html
+ 
+In addition, in future I plans to work more on the Gallery Wall to include link that will illustrate what the picture for.
 
 ### Features Left to Implement
-
-## Blog 
-
-## footnote
-
-## Social Media
-
-## BSL video
+I was unable to include the following in my project however this will be reviewed in the future development
+•	Blog missing 
+•	Footnote for social media link
+•	A video column for British Sign Language
 
 ### Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+•	## Technologies Used
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+In this section, I was able to make use the following languages to develop my site  
+•	CSS
+•	HTML
+frameworks
+•	Bootstrap – It was use as a my starting point for my project
+https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template
+libraries : 
+•	W3Schools – It was use to select color
+https://www.w3schools.com/tags/ref_colornames.asp
+
+•	HTML /CSS code validator – It was used to validate my code and to detect errors
+https://validator.w3.org/nu/#textarea
+
 
 
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
+[file:///C:/Users/admin/Documents/mGXpo%20V1.0a.pdf]
+In this section, I was able to test the functionality of the momiiGness Expo! Project  
+manually by varying the code to actualise UX response to each page, as a result, I was able to derive some the following 
+•	Test Plan – With Project name momiiGness Expo! I was able to create 
+o	Test plan reference to be able to track the project in future
+o	Test Condition to analyse what functionality of the Project
+o	Test case Description and assumptions. 
+Further, I developed Test Cases to validate and invalidate the end UX by creating the following for each pages of the momiiGness Expo!
+•	Test Case Scenario
+•	Test cases Steps
+•	Expected result 
+•	Actual result
+In the future I will to use manual software testing tools such as Jira or HP to. 
+For example I was able to validate and invalidate SUBMIT functionality using the following steps
 1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+    1. Go to the "Contact Me" page
+    2. Verify that if user input  
+•	Full name 
+•	Email 
+•	Phone contact are readable on the form
+    3. Submit the form to valid all the all three data input above disappears    
+   4.  Invalidate that user input will not submit without SUBMIT command
+•	Full name 
+•	Email 
+•	Phone contact are readable on the form
+The form will be static.
+In addition, my net phase of development will be to carry out test on different browsers and screen sizes. Also how I can improve on my project testing tools. Development of test case will help in detecting bugs, also using different test environment will minimise the same bug re-appearing again as a result of regression testing. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+According to
+ https://softwareengineering.stackexchange.com/questions/344184/what-is-the-difference-between-software-deployment-and-software-release.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+Deployment refers to getting program to a running state on a server, however it doesn't need to be the production server. One can  deploy released code, or code that is not  ready for release. In web development, it is common to deploy code to a test environment before testing it. Therefore in order to deploy my repo to github, the following steps were followed
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from my laptop
 
 ### Acknowledgements
 
-- I received inspiration for this project from my Daughter Greatness Olorunmomi
+- I received inspiration for this project from my Daughter Greatness Olorunmomi who had at a younger age when through childhood sickness that left her profoundly deaf and additional need
